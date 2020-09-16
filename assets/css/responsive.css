@@ -1,0 +1,99 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 321px) {
+    #logo-img{
+        height: 33px !important;
+    }
+    .navbar-brand {
+        padding: 15px 0px;
+    }
+    #sidebar-button {
+        line-height: 64px !important;
+        font-size: 30px;
+    }
+    .navbar-toggle {
+        padding: 3px 3px;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #00496c;
+        margin-top: 6px;
+        width: 30px !important;
+        height: 4px;
+    } 
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    body{
+        padding-top: 75px;
+    }
+    #logo-img{
+        height: 45px;
+    }
+    .navbar-brand {
+        padding: 15px 0px;
+    }
+    #sidebar-button {
+        line-height: 70px;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #00496c;
+        margin-top: 6px;
+        width: 34px;
+        height: 4px;
+    }
+    .corner{
+        display: none;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: rgba(225, 225, 225, 0.8);
+
+    }
+
+    #global-search .form-control{
+        display: inline;
+    }
+    #global-search .input-group{
+        display: inline;
+        padding-top: 9px;
+        padding-bottom: 10px;
+    }
+    #global-search #search-option{
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    #global-search .fa-search{
+        padding-top: 10px;
+    }
+    #global-search #search-modules-list{
+        margin-left: 100%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #global-search select{
+        display: inline;
+    }
+    #global-search input{
+        display: inline;
+    }
+    #global-search i{
+        padding: 10px !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

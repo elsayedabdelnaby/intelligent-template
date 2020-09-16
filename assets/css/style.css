@@ -1,0 +1,195 @@
+body{
+    padding-top: 58px;
+}
+
+.theme-color{
+    color: #00496c;
+}
+.background-theme-color{
+    background-color: #00496c;
+}
+.theme-red-color{
+    color: #d03942;
+}
+.background-theme-red-color{
+    background-color: #d03942;
+}
+
+/******************Start Overriding BootStrap*******************/
+/***************************NavBar*******************/
+#top-navbar .navbar{
+    margin-bottom: 0px;
+}
+#top-navbar .navbar-default, .navbar-default .navbar-toggle:hover {
+    background-color: white;
+}
+#top-navbar .navbar-default .navbar-toggle, .navbar-default{
+    border-color: white;
+}
+
+#sidebar-button{
+    float: left;
+    border: 0;
+    background-color: white;
+    font-size: 35px;
+    line-height: 55px;
+}
+
+#top-navbar .navbar-default .navbar-nav > li > a {
+    color: white;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#top-navbar .navbar-default .navbar-nav > li > a:hover {
+    color: white;
+}
+
+#top-navbar .navbar-default .navbar-nav > li > a:active {
+    color: white;
+}
+#top-navbar .navbar-default .navbar-nav > li > a:visited {
+    color: white;
+}
+
+#top-navbar .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #00496c;
+}
+
+.dropdown.language{
+    margin-right: 75px;
+    margin-left: 10px;
+}
+
+.navbar-brand{
+    padding: 5px 15px;
+}
+
+#top-navbar .navbar-nav {
+    margin: 0px -15px;
+}
+
+.corner{
+    border-width: 0 40px 31px 0;
+    border-color: transparent #00496c transparent transparent;
+    border-style: solid;
+    position: absolute;
+    top: -21px;
+    margin-left: -152px;
+}
+
+#top-navbar .navbar-right .dropdown-menu {
+    left: 0;
+    right:auto;
+    min-width: unset;
+    border: rgba(84 81 81 / 50%) solid;
+    
+}
+.language .dropdown-menu a{
+    color: rgba(225, 225, 225, 0.8);
+}
+.language .dropdown-menu a:hover{
+    color:#d23f49;
+    background-color: #00496c;
+    padding: 6px 20px;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+}
+
+.language a.dropdown-toggle, .language a.dropdown-toggle:visited{
+    color: rgba(225, 225, 225, 0.8) !important;
+}
+/*********************End Navbar*************************/
+/*************************Search Form*************************/
+#global-search div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#global-search .form-control{
+    border-color: #d23f49;
+    border-radius: 0;
+}
+#global-search input{
+    margin-right: -7px;
+    width:30%;
+}
+#global-search .fa-search{
+    color:white;
+    background-color: #d23f49;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 11px;
+    margin-left: -5px;
+    margin-top: 2px;
+}
+
+#global-search #search-modules-list{
+    box-shadow: 0 5px 5px rgba(0,0,0,.1);
+    display: none;
+    position: absolute;
+    z-index: 20;
+    background: #fff;
+    padding-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    text-align: left;
+}
+#global-search #search-modules-list li{
+    padding: 5px 30px;
+    width:150px;
+    color:#000;
+}
+#global-search #search-modules-list li:hover{
+    padding: 7px 33px;
+    background-color: #ccc;
+}
+#global-search #search-option{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+#global-search .input-group{
+    background-color: #d23f49;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color:#FFF;
+}
+/*************************End Search Form*************************/
+/*********************Navbar Links*************************/
+#main-navbar .navbar{
+    border: unset;
+    border-radius: unset;
+}
+
+#main-navbar .navbar-default .navbar-nav > li > a {
+    color: white;
+    font-size: 17px;
+}
+
+#main-navbar .navbar-default .navbar-nav > li > a:hover {
+    color: #d03942;
+    border-bottom: 6px solid #d03942;
+}
+
+#main-navbar.navbar-default .navbar-nav > li > a:active {
+    color: white;
+}
+#main-navbar .navbar-default .navbar-nav > li > a:visited {
+    color: white;
+}
+#main-navbar .navbar-default .navbar-nav > .active > a{
+    background-color: #00496c;
+    border-bottom: 6px solid #d03942;
+}
+#main-navbar .navbar{
+    margin-bottom: 0px;
+}
+/*********************End Navbar Links*************************/
+
+/*********************Start Project Slider*************************/
+
+/*********************End Project Slider*************************/
