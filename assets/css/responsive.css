@@ -1,56 +1,11 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 321px) {
-    #logo-img{
-        height: 33px !important;
-    }
-    .navbar-brand {
-        padding: 15px 0px;
-    }
-    #sidebar-button {
-        line-height: 64px !important;
-        font-size: 30px;
-    }
-    .navbar-toggle {
-        padding: 3px 3px;
-    }
-
-    .navbar-default .navbar-toggle .icon-bar {
-        background-color: #00496c;
-        margin-top: 6px;
-        width: 30px !important;
-        height: 4px;
-    } 
+    
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    body{
-        padding-top: 75px;
-    }
-    #logo-img{
-        height: 45px;
-    }
-    .navbar-brand {
-        padding: 15px 0px;
-    }
-    #sidebar-button {
-        line-height: 70px;
-    }
-
-    .navbar-default .navbar-toggle .icon-bar {
-        background-color: #00496c;
-        margin-top: 6px;
-        width: 34px;
-        height: 4px;
-    }
-    .corner{
-        display: none;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: rgba(225, 225, 225, 0.8);
-
-    }
-
+    
     #global-search .form-control{
         display: inline;
     }

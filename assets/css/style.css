@@ -1,7 +1,3 @@
-body{
-    padding-top: 58px;
-}
-
 .theme-color{
     color: #00496c;
 }
@@ -16,80 +12,43 @@ body{
 }
 
 /******************Start Overriding BootStrap*******************/
-/***************************NavBar*******************/
-#top-navbar .navbar{
-    margin-bottom: 0px;
+.top-header .open-sidebar-btn{
+    margin-left: 20px;
+    margin-right: -10px;
+    margin-top: 3px;
 }
-#top-navbar .navbar-default, .navbar-default .navbar-toggle:hover {
-    background-color: white;
+.top-header #logo-img{
+    margin-top: 5px;
+    margin-left: 60px;
 }
-#top-navbar .navbar-default .navbar-toggle, .navbar-default{
-    border-color: white;
-}
-
-#sidebar-button{
-    float: left;
-    border: 0;
-    background-color: white;
-    font-size: 35px;
-    line-height: 55px;
-}
-
-#top-navbar .navbar-default .navbar-nav > li > a {
-    color: white;
-    font-weight: 600;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-#top-navbar .navbar-default .navbar-nav > li > a:hover {
-    color: white;
-}
-
-#top-navbar .navbar-default .navbar-nav > li > a:active {
-    color: white;
-}
-#top-navbar .navbar-default .navbar-nav > li > a:visited {
-    color: white;
-}
-
-#top-navbar .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color: #fff;
-    background-color: #00496c;
-}
-
-.dropdown.language{
-    margin-right: 75px;
-    margin-left: 10px;
-}
-
-.navbar-brand{
-    padding: 5px 15px;
-}
-
-#top-navbar .navbar-nav {
-    margin: 0px -15px;
-}
-
-.corner{
-    border-width: 0 40px 31px 0;
+.top-header .corner{
+    border-width: 0 38px 31px 0;
     border-color: transparent #00496c transparent transparent;
     border-style: solid;
     position: absolute;
     top: -21px;
-    margin-left: -152px;
+    margin-left: -84px;
 }
 
-#top-navbar .navbar-right .dropdown-menu {
-    left: 0;
-    right:auto;
-    min-width: unset;
-    border: rgba(84 81 81 / 50%) solid;
-    
+.top-header ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-.language .dropdown-menu a{
+
+.top-header ul li a{
+    color: #FFF;
+    font-weight: bold;
+}
+.top-header ul li a:hover{
+    text-decoration: unset;
+}
+.top-header .language .dropdown-menu{
+    margin-top: 0px;
+}
+.top-header .language .dropdown-menu a{
     color: rgba(225, 225, 225, 0.8);
 }
-.language .dropdown-menu a:hover{
+.top-header .language .dropdown-menu a:hover{
     color:#d23f49;
     background-color: #00496c;
     padding: 6px 20px;
@@ -98,7 +57,6 @@ body{
     -o-transition: padding 0.5s ease;
     transition: padding 0.5s ease;
 }
-
 .language a.dropdown-toggle, .language a.dropdown-toggle:visited{
     color: rgba(225, 225, 225, 0.8) !important;
 }
