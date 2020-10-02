@@ -1,17 +1,37 @@
+:root{
+    --blue-theme-color: #00496c;
+    --red-theme-color: #d03942;
+}
 .theme-color{
-    color: #00496c;
+    color: var(--blue-theme-color);
 }
 .background-theme-color{
-    background-color: #00496c;
+    background-color: var(--blue-theme-color);
 }
 .theme-red-color{
-    color: #d03942;
+    color: var(--red-theme-color);
 }
 .background-theme-red-color{
-    background-color: #d03942;
+    background-color: var(--red-theme-color);
 }
 
 /******************Start Overriding BootStrap*******************/
+
+/******************Start Top Header*******************/
+.fa {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+}
+body{
+    height: 2000px;
+}
+header .top-header, header #global-search, .clearfix{
+    background-color: #FFF;
+}
+header + .content{
+    margin-top: 160px;
+}
+
 .top-header .open-sidebar-btn{
     margin-left: 20px;
     margin-right: -10px;
@@ -44,13 +64,14 @@
 }
 .top-header .language .dropdown-menu{
     margin-top: 0px;
+    border: 2px solid #888;
 }
 .top-header .language .dropdown-menu a{
     color: rgba(225, 225, 225, 0.8);
 }
 .top-header .language .dropdown-menu a:hover{
-    color:#d23f49;
-    background-color: #00496c;
+    color: var(--red-theme-color);
+    background-color: var(--blue-theme-color);
     padding: 6px 20px;
     -webkit-transition: padding 0.5s ease;
     -moz-transition: padding 0.5s ease;
@@ -60,14 +81,14 @@
 .language a.dropdown-toggle, .language a.dropdown-toggle:visited{
     color: rgba(225, 225, 225, 0.8) !important;
 }
-/*********************End Navbar*************************/
+/******************End Top Header*******************/
 /*************************Search Form*************************/
 #global-search div{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 13px;
 }
 #global-search .form-control{
-    border-color: #d23f49;
+    border-color: var(--red-theme-color);
     border-radius: 0;
 }
 #global-search input{
@@ -76,7 +97,7 @@
 }
 #global-search .fa-search{
     color:white;
-    background-color: #d23f49;
+    background-color: var(--red-theme-color);
     padding-top: 9px;
     padding-left: 10px;
     padding-right: 10px;
@@ -111,7 +132,7 @@
     font-size: 16px;
 }
 #global-search .input-group{
-    background-color: #d23f49;
+    background-color: var(--red-theme-color);
     padding-top: 6px;
     padding-bottom: 6px;
     color:#FFF;
@@ -123,31 +144,66 @@
     border-radius: unset;
 }
 
+#main-navbar .navbar-default .navbar-nav{
+    padding-left: 40px;
+}
+
 #main-navbar .navbar-default .navbar-nav > li > a {
     color: white;
     font-size: 17px;
 }
 
 #main-navbar .navbar-default .navbar-nav > li > a:hover {
-    color: #d03942;
-    border-bottom: 6px solid #d03942;
+    color: var(--red-theme-color);
+    border-bottom: 6px solid var(--red-theme-color);
 }
 
 #main-navbar.navbar-default .navbar-nav > li > a:active {
     color: white;
 }
-#main-navbar .navbar-default .navbar-nav > li > a:visited {
-    color: white;
-}
+
 #main-navbar .navbar-default .navbar-nav > .active > a{
-    background-color: #00496c;
-    border-bottom: 6px solid #d03942;
+    background-color: var(--blue-theme-color);
+    border-bottom: 6px solid var(--red-theme-color);
 }
+
+#main-navbar .navbar-default .navbar-nav > li > a:visited {
+    background-color: var(--blue-theme-color);
+}
+
 #main-navbar .navbar{
     margin-bottom: 0px;
 }
+#main-navbar li.getMenu i{
+    margin-left: 5px;
+}
 /*********************End Navbar Links*************************/
 
-/*********************Start Project Slider*************************/
-
-/*********************End Project Slider*************************/
+/*********************Start Submenu*************************/
+.submenu{
+    background: rgba(255,255,255,.9);
+    z-index: 9;
+    border-bottom: 1px solid #dadada;
+    display: none;
+}
+.submenu ul{
+    padding-top: 5px;
+}
+.list-items .menu-item:last-child li{
+    border-bottom: unset;
+    padding-bottom: unset;
+}
+.submenu ul li.menu-item ul li:first-child{
+    margin-right: 3%;
+}
+.submenu ul li.menu-item ul li{
+    border-bottom: 1px solid #dadada;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 48%;
+}
+.submenu ul li.menu-item ul li span{
+    border-left: 2px solid var(--red-theme-color);
+    padding-left: 10px;    
+}
+/*********************End Submenu*************************/
